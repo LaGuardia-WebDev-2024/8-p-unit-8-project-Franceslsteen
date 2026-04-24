@@ -31,7 +31,7 @@ var drawSquid = function(squidX, squidY, squidColor){
   fill(squidColor);
   text("🦑", squidX, squidY);
 };
-
+//When mouse clicked 
 mouseClicked=function() {
   drawFish(random(200),random(200));
   x+=2;
